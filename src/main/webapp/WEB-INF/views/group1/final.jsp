@@ -1,6 +1,6 @@
 <html>
 <body>
-	<h2>Hello World! ${message}</h2>
+	<h2>Hello World! Final</h2>
 	<ul>
 		<li><a href="student">Student</a></li>
 		<li><a href="redirect">Redirect</a></li>
