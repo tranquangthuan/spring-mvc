@@ -19,7 +19,7 @@
 <body>
 	<h2>Student Information</h2>
 	<form:form method="POST" action="addStudent" modelAttribute="student">
-		<%-- <form:errors path="*" cssClass="errorblock" element="div" /> --%>
+		<form:errors path="*" cssClass="errorblock" element="div" />
 		<table>
 			<tr>
 				<td><form:label path="name">Name</form:label></td>
