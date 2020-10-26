@@ -12,11 +12,12 @@ import org.springframework.web.bind.annotation.InitBinder;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
 import thuan.spring.mvc.model.Student;
 
-@Controller
+@Controller("/student-controller")
 public class StudentController {
 
 	@Autowired
@@ -45,4 +46,10 @@ public class StudentController {
 		model.addAttribute("id", student.getId());
 		return "result";
 	}
+
+	@RequestMapping(value = "/student-list", method = RequestMethod.GET)
+	public String getListStudent(Model model) {
+		return "student-list";
+	}
+
 }

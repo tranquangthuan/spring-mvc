@@ -13,10 +13,12 @@
 	<spring:message code="Language" text="default text- Language" />
 	<ul>
 		<li><a href="student">Student</a></li>
+		<li><a href="student-list">Student List</a></li>
 		<li><a href="redirect">Redirect</a></li>
 		<li><a href="redirectFinal">Redirect Final Pages</a></li>
 		<li><a href="redirectFinal2">Redirect Final 2 by method</a></li>
 		<li><a href="studentAnnotation">Student Annotation VI</a></li>
+		<li><a href="employees/all">List Employees</a></li>
 	</ul>
 </body>
 </html>
