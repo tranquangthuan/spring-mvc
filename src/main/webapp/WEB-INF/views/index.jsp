@@ -19,6 +19,8 @@
 		<li><a href="redirectFinal2">Redirect Final 2 by method</a></li>
 		<li><a href="studentAnnotation">Student Annotation VI</a></li>
 		<li><a href="employees/all">List Employees</a></li>
+		<li><a href="customer/list">Customer all</a></li>
+		<li><a href="customer/showForm">Customer Show form</a></li>
 	</ul>
 </body>
 </html>
